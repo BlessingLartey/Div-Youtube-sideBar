@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins';
+    background-color: black;
+}
+
+nav{
+    width: 100%;
+    background-color: aqua;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.main-screen{
+    width: 70%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+}
+
+.sidebar{
+    width: 30%;
+    height: 100vh;
+    background-color: black;
+    display: block;
+    color: white;
+    padding: 20px;
+}
+
+.adds{
+    width: 95%;
+    height: 20%;
+    border: solid 1px white;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.add-image{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.add-image-small{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.add-desc{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.add-desc button{
+    height: 30px;
+    width: 70px;
+    background: rgb(23, 81, 156);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.btn-navigation{
+    display: inline-block;
+    gap: 120px;
+    width: 400px;
+    overflow: hidden;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-navigation button{
+    border: none;
+    background-color: rgb(93, 87, 87);
+    border-radius: 10px;
+    color: white;
+    height: 30px;
+    padding:5px 10px;
+    margin-right: 10px;
+}
+
+.sec-part{
+    display: flex;
+}
+
+.icon{
+    margin-right: 40px;
+    margin-top: 5px;
+}
+
+.thumbnails{
+    height: 70vh;
+    width: 95%;
+    display: block;
+}
+
+.thumbnails img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.thumbnails span{
+    width: 50%;
+}
+
+.thumbnails div{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+    height: 100px;
+}
